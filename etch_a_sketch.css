@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;  /* Centre verticalement */
+    height: 100vh;  /* Prend toute la hauteur de la fenêtre */
+    margin: 0;  /* Supprime les marges par défaut */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+    width: 432px; /* Taille de la grille */
+    height: 432px;
+    border: 2px solid black;
+}
+.square {
+    width: 25px; /* 400px / 16 = 25px */
+    height: 25px;
+    border: 1px solid lightgray;
+}
+
+.square:hover {
+    background-color: yellowgreen;
+}
