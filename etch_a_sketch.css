@@ -18,7 +18,3 @@ body {
     height: 25px;
     border: 1px solid lightgray;
 }
-
-.square:hover {
-    background-color: yellowgreen;
-}
